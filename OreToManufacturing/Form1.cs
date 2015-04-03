@@ -308,7 +308,6 @@ namespace OreToManufacturing
         {
             try
             {
-                // full access api key for Thirtyone Organism
                 string api_key = "https://api.eveonline.com/Char/CharacterSheet.xml.aspx?&characterID=91810030&keyID=3890775&vCode=8w2EoSi0UyXXiSaagZnUN1ep2B6bkcFFCNd5CBsMnE7X5CHB3iHqYxEGubzBWP3c";
                 WebClient web = new WebClient();
                 web.Proxy = null;
